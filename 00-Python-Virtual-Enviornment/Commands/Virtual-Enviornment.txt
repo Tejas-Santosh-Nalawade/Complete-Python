@@ -1,0 +1,19 @@
+By using only python for creating Virtual Enviornment
+
+1. python -m venv myenv
+2. myenv\Scripts\activate
+3. pip install -r requirements.txt
+4. deactive
+
+By using virtualenv for creating virtual Enviornment
+
+1. virtualenv -p python3 virtual_env
+2. virtual_env\Scripts\activate 
+3. deactivate
+
+By using anaconda for creating Virtual Enviornmnet
+
+1. conda create -p venv python == 3.12(python version)
+2. conda activate venv/
+3. pip install -r requirements.txt
+4. conda deactivate
